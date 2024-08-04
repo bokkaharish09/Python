@@ -57,7 +57,8 @@ elif input_c == 7:
 else:
     print("Invalid Input")
 
-    #Tip Calculator
+
+#Tip Calculator
 print("|| Welcome to Tip Calculator ||\n")
 
 bill_amount=float(input("What is your total bill amount?"))
