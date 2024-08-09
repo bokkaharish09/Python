@@ -130,3 +130,33 @@ if height>=120:
     print(f"Since your age is less than 18 you cannot ride the rollercoaster")
 else:
    print("Your Height is Short for riding the rollercoaster")
+
+
+#
+
+total=0
+#Sum of Numbers from 1to100
+for num in range(1,101):
+   total+=num
+
+print(total)
+
+#Sum of Even Numbers
+
+target=int(input("Enter your desired target number"))
+
+sum=0
+for x in range (2,target+1,2):
+   sum+=x
+print(sum)
+
+#Alternate Method
+sum_1=0
+for x in range (2,target+1):
+  if(x%2==0):
+      sum_1+=x
+  else:  #else is not necessary
+      pass
+print(sum)
+
+
