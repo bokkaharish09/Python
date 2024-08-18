@@ -43,9 +43,3 @@ for char in passwordlist:
     password +=char
 
 print(password)
-
-
-
-
-
-
