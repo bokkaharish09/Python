@@ -1,4 +1,3 @@
-#Choose a Random Word for Hangman
 #Hangman ASCII Art
 
 hangman_stages = [
@@ -88,8 +87,7 @@ wordlist =("Adventure",
     "Symphony",
     "Tornado")
 
-lives=6
-#Selecting a Word
+#Choose a Random Word for Hangman
 import random
 choosen_word=random.choice(wordlist).lower()
 # print(choosen_word)
@@ -109,6 +107,7 @@ print(r"""
 print("_ "*len(choosen_word))
 
 #Check
+lives=6
 game_over = False
 
 correct_sequence=[]
